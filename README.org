@@ -9,3 +9,5 @@ My simple solutions to [[https://adventofcode.com/2022][Advent of code 2022]].
   - [[day2b/src/main.rs][Day 2b]]
   - [[day3a/src/main.rs][Day 3a]]
   - [[day3b/src/main.rs][Day 3b]]
+  - [[day4a/src/main.rs][Day 4a]]
+  - [[day4b/src/main.rs][Day 4b]]
