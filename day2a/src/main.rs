@@ -12,13 +12,7 @@ pub fn main() {
     ]);
     let mut tot_score = 0;
     for line in include_str!("../input.txt").lines() {
-        match scoring_table.get(line) {
-            Some(score) => {
-                // println!("{line}: {score}");
-                tot_score += score;
-            },
-            None => panic!()
-        }
+        tot_score += scoring_table.get(line).unwrap();
     }
     println!("Score: {}", tot_score);
 }
