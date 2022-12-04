@@ -2,12 +2,22 @@
 
 My simple solutions to [[https://adventofcode.com/2022][Advent of code 2022]].
 
-- Days:
-  - [[day1a/src/main.rs][Day 1a]]
-  - [[day1b/src/main.rs][Day 1b]]
-  - [[day2a/src/main.rs][Day 2a]]
-  - [[day2b/src/main.rs][Day 2b]]
-  - [[day3a/src/main.rs][Day 3a]]
-  - [[day3b/src/main.rs][Day 3b]]
-  - [[day4a/src/main.rs][Day 4a]]
-  - [[day4b/src/main.rs][Day 4b]]
+| Day | Part A  | Part B  |
+|-----+---------+---------|
+|   1 | [[day1a/src/main.rs][0.034ms]] | [[day1b/src/main.rs][0.232ms]] |
+|   2 | [[day2a/src/main.rs][0.211ms]] | [[day2b/src/main.rs][0.129ms]] |
+|   3 | [[day3a/src/main.rs][0.149ms]] | [[day3b/src/main.rs][0.096ms]] |
+|   4 | [[day4a/src/main.rs][0.100ms]] | [[day4b/src/main.rs][0.165ms]] |
+
+* Run solutions
+#+begin_src bash
+# Run a specific day
+cd dayX
+cargo run --release
+
+# Benchmarck
+cd ../runnner
+cargo run --release --bin bench
+#+end_src
+
+Benchmark taken from: [[https://github.com/timvisee/advent-of-code-2021][timvisee]]

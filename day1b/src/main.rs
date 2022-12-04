@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
     let mut max: [u32; 3] = [0; 3];
     let mut count = 0;
     for line in include_str!("../input.txt").lines() {

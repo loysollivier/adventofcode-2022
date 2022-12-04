@@ -7,7 +7,7 @@ use std::collections::HashMap;
 // Draw     Y
 // Win      Z
 
-fn main() {
+pub fn main() {
     let scoring_table = HashMap::from([
         ("A X", 3+0), ("A Y", 1+3), ("A Z", 2+6),
         ("B X", 1+0), ("B Y", 2+3), ("B Z", 3+6),

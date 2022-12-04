@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
     let mut tot = 0;
     for line in include_str!("../input.txt").lines() {
         let v: Vec<u8> = line.split(&[',', '-'][..]).map(|x| x.parse::<u8>().unwrap()).collect();

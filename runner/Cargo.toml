@@ -1,0 +1,20 @@
+[package]
+name = "runner"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.5"
+took = "0.1"
+
+# Days
+day1a = { path = "../day1a" }
+day1b = { path = "../day1b" }
+day2a = { path = "../day2a" }
+day2b = { path = "../day2b" }
+day3a = { path = "../day3a" }
+day3b = { path = "../day3b" }
+day4a = { path = "../day4a" }
+day4b = { path = "../day4b" }

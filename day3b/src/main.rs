@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::iter::zip;
 
-fn main() {
+pub fn main() {
     let mut tot = 0;
     let mut score: HashMap<char,u16> = HashMap::new();
     for (s, l) in zip(1..=26,'a'..='z') {

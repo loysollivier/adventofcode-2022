@@ -4,7 +4,7 @@ use std::collections::HashMap;
 // Paper    B Y
 // Scissors C Z
 
-fn main() {
+pub fn main() {
     let scoring_table = HashMap::from([
         ("A X", 1+3), ("A Y", 2+6), ("A Z", 3+0),
         ("B X", 1+0), ("B Y", 2+3), ("B Z", 3+6),
