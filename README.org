@@ -7,3 +7,5 @@ My simple solutions to [[https://adventofcode.com/2022][Advent of code 2022]].
   - [[day1b/src/main.rs][Day 1b]]
   - [[day2a/src/main.rs][Day 2a]]
   - [[day2b/src/main.rs][Day 2b]]
+  - [[day3a/src/main.rs][Day 3a]]
+  - [[day3b/src/main.rs][Day 3b]]
