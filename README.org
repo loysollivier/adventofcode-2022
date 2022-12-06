@@ -4,7 +4,7 @@ My simple solutions to [[https://adventofcode.com/2022][Advent of code 2022]].
 
 | Day | Part A  | Part B  |
 |-----+---------+---------|
-|   1 | [[day1a/src/main.rs][0.034ms]] | [[day1b/src/main.rs][0.232ms]] |
+|   1 | [[day1a/src/main.rs][0.034ms]] | [[day1b/src/main.rs][0.037ms]] |
 |   2 | [[day2a/src/main.rs][0.137ms]] | [[day2b/src/main.rs][0.129ms]] |
 |   3 | [[day3a/src/main.rs][0.149ms]] | [[day3b/src/main.rs][0.096ms]] |
 |   4 | [[day4a/src/main.rs][0.100ms]] | [[day4b/src/main.rs][0.165ms]] |

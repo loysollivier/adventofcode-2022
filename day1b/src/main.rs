@@ -6,7 +6,6 @@ pub fn main() {
         match x {
             Ok(x) => count += x,
             Err(_) => {
-                println!("{}", count);
                 match count {
                     count if count > max[2] => {max[0] = max[1]; max[1] = max[2]; max[2] = count},
                     count if count > max[1] => {max[0] = max[1]; max[1] = count},
