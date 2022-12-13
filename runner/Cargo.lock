@@ -67,6 +67,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "day10a"
+version = "0.1.0"
+dependencies = [
+ "regex",
+]
+
+[[package]]
+name = "day10b"
+version = "0.1.0"
+dependencies = [
+ "regex",
+]
+
+[[package]]
 name = "day1a"
 version = "0.1.0"
 
@@ -246,6 +260,8 @@ checksum = "456c603be3e8d448b072f410900c09faf164fbce2d480456f50eea6e25f9c848"
 name = "runner"
 version = "0.1.0"
 dependencies = [
+ "day10a",
+ "day10b",
  "day1a",
  "day1b",
  "day2a",
