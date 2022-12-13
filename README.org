@@ -12,6 +12,7 @@ My simple solutions to [[https://adventofcode.com/2022][Advent of code 2022]] in
 |   6 | [[day6a/src/main.rs][0.014ms]] | [[day6b/src/main.rs][0.053ms]] |
 |   7 | [[day7a/src/main.rs][0.287ms]] | [[day7b/src/main.rs][0.294ms]] |
 |   8 | [[day8a/src/main.rs][1.940ms]] | [[day8b/src/main.rs][0.900ms]] |
+|   9 | [[day9a/src/main.rs][0.755ms]] | [[day9b/src/main.rs][0.800ms]] |
 
 * Run solutions
 #+begin_src bash
